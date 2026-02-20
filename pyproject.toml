@@ -13,3 +13,6 @@ packages = ["src/small_project"]
 
 [tool.uv]
 managed = true
+
+[dependency-groups]
+dev = ["pytest>=8"]
